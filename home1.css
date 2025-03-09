@@ -1,0 +1,226 @@
+body {
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+body::-webkit-scrollbar {
+    display: none; 
+}
+.header{
+    background-image: url("https://images.unsplash.com/photo-1739001416673-8c03d1a2d257?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    border-radius: 20px;
+}
+
+.navbar {
+    background-color: black;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    transition: top 0.3s, opacity 0.3s;
+    font: 1em sans-serif;
+    height: 50px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+    transition: color 0.3s;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    color: greenyellow;
+    transform: rotate(60px);
+    
+}
+
+.header {
+    color: aliceblue;
+    padding: 100px;
+    font-family: "Sigmar", sans-serif;
+    font-weight: 350;
+    font-style: normal;
+    font-stretch: expanded;
+
+
+}
+hr{
+    border-top: 10px solid black;
+    border-radius: 20px;
+}
+
+.he1{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 70px;
+    color: black;
+    transition: 1s;
+    text-align: right;
+
+}
+
+.he1:hover{
+    color:greenyellow;
+    transform: translateY(-0.25em);
+    border-color:black;
+    text-shadow: 4px 4px black;
+}
+
+.he2{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 70px;
+    color: black;
+    transition: 1s;
+    text-align: left;
+}
+
+.he2:hover{
+    color:greenyellow;
+    transform: translateY(-0.25em);
+    border-color:black;
+    text-shadow: 4px 4px black;
+}
+.p1{
+    height: 400px;
+    text-align: left;
+    color: black;
+    font-size: 45px;
+    padding-top: 250px;
+    transition: .5s;
+}
+.p1:hover{
+color: skyblue;
+}
+
+.p2{
+    text-align: left;
+    color: black;
+    font-size: 50px;
+    font-family: "Bebas Neue", sans-serif;
+    
+}
+.p3{
+    color: aliceblue;
+    font-size: 300px;
+    font-weight: 400;
+    transition: 1s;
+    font-family: "Bebas Neue", sans-serif;
+    text-align: center;
+    font-weight: 800;
+
+
+}
+.line1{
+    border-top: 10px solid black;
+    border-radius: 100px;
+}
+.p3:hover{
+    color:greenyellow;
+    transform: translateY(-0.25em);
+    border-color:black;
+    text-shadow: 10px 10px black;
+}
+.header2{
+    background-image: linear-gradient(180deg, black , white);
+    border-radius: 10px;
+}
+.he3{
+    /* text-align: left; */
+    padding-top: 20px;
+    font-size: 50px;
+    transition: 1s;
+    font-family: "Sixtyfour Convergence", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:400;
+    font-style: normal;
+    font-variation-settings:
+      "BLED" 0,
+      "SCAN" 0,
+      "XELA" 0,
+      "YELA" 0;
+}
+.he3:hover{
+    color:greenyellow;
+    transform: translateY(5px);
+    border-color:black;
+    text-shadow: 10px 10px white;
+}
+#container1{
+    margin: 0 auto;
+    /* border: 20px inset linear-gradient(to right, red , yellow); */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 90%;
+    border-radius: 20px;
+}
+#container2{
+    margin: 0 auto;
+    /* border: 20px inset linear-gradient(to right, red , yellow); */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 90%;
+    border-radius: 20px;
+}
+img {
+    width: 30%;
+    /* margin: 1.6666666%; */
+    margin: calc(10%/6);
+    transition: 1s;
+    border-radius: 20px;
+}
+img:hover{
+    box-shadow: 0 1em 1em 1em black;
+    transform: translateY(-0.4em);
+}
+
+.linecontainer {
+    display: flex;
+    align-items: center;
+}
+.line {
+    flex-grow: 1;
+    height: 2px;
+    background-color: #000;
+    margin: 0 10px;
+}
+
+.im1{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 99%;
+    margin: auto;
+    height: 300px;
+    transition: 2s;
+}
+.im1:hover{
+    box-shadow: 0 1em 1em 1em grey;
+    transform: translateY(-0.4em);
+}
+.p4{
+    text-align: left;
+    color: black;
+    font-size: 45px;
+    transition: .5s;
+    font-family: "Sigmar", sans-serif;
+
+}
+.p4:hover{
+    color: skyblue;
+    }
+
+.main{
+    width: 45%;
+    margin: calc(10%/2);
+}
